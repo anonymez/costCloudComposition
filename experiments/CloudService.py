@@ -5,8 +5,8 @@ import subprocess
 
 from pip._vendor.appdirs import unicode
 
-from experiments.costants import DIRECT_COST,INDIRECT_COST, MISMATCH_COST
-from experiments.fcost import fcost
+from costants import DIRECT_COST,INDIRECT_COST, MISMATCH_COST
+from fcost import fcost
 
 class CSID:
     def __init__(self):

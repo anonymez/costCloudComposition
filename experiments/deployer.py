@@ -1,12 +1,12 @@
 import math
 import multiprocessing
 
-from experiments.partitionset import partition_set_smart,partition_set_optimum
-from experiments.CloudService import parse_compatible,CloudService,CSID
-from experiments.fcost import fcost
-from experiments.costants import MAX_P
+from partitionset import partition_set_smart,partition_set_optimum
+from CloudService import parse_compatible,CloudService,CSID
+from fcost import fcost
+from costants import MAX_P
 
-from experiments.combination import recursive
+from combination import recursive
 
 N_PROC=4
 

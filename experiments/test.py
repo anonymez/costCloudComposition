@@ -1,11 +1,11 @@
 import time
-from experiments.costants import print_request,FUNCTIONALITIES,sort_print
-from experiments.requests import REQUESTS
-from experiments.window import WINDOW
-from experiments.deployer import deploy,iterative_optimim_deploy
-from experiments.CloudService import CloudService,CSID
-from experiments.migration import migrate
-from experiments.tomigrate import MIGRATION
+from costants import print_request,FUNCTIONALITIES,sort_print
+from requests import REQUESTS
+from window import WINDOW
+from deployer import deploy,iterative_optimim_deploy
+from CloudService import CloudService,CSID
+from migration import migrate
+from tomigrate import MIGRATION
 
 if __name__ == "__main__":
     print ("Fuzzy-based cost-aware deployment of Certified Composite Service for the Cloud - WINDOW"+str(WINDOW))
